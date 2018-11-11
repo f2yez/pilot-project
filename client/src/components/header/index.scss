@@ -1,0 +1,24 @@
+.header-area {
+  top: 0;
+  z-index: 10;
+  background: #48b5e9;
+  height: 80px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 0 25px;
+  color: #fff;
+  line-height: 80px;
+  a {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0px 6px;
+    h1 { 
+      font-size: 28px;
+    }
+    border-right: 1px solid #fff;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

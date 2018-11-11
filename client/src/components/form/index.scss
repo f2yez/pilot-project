@@ -1,0 +1,47 @@
+.form-area{
+    width: 40%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding: 0px 15px 15px 15px;
+    line-height: 16px;
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+    margin: 100px auto;
+    background: #fff;
+    
+    form{
+
+        label, input, textarea {
+            display: block;
+            width: 95% !important;
+            font-weight: bolder;
+        }
+        textarea {
+            min-height: 120px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: solid 1px #BDC7D8;
+            border-radius: 3px;
+        }
+        
+        .save-btn-area {
+            text-align: center;
+            margin: 16px 0px;
+            button {
+                font-weight: bold;
+                background-color: #48b5e9;
+                color: #ffffff;
+                border-radius: 3px;
+                padding: 6px 10px;
+            }
+        }
+
+    }
+
+    .description-area, .title-area {
+        padding: 6px;
+        margin: 10px 0px;
+    }
+}

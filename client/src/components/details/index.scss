@@ -1,0 +1,22 @@
+.content-area {
+    margin: 0;
+    float: right;
+    width: 70%;
+}
+  
+.content {
+    position: relative;
+    top: 80px;
+    word-break: break-word;
+    .title {
+        h3 {
+            display: inline-block;
+        }
+        a {
+            float: right;
+            display: inline-block;
+            margin: auto;
+            margin-top: 16px;
+        }
+    }
+}

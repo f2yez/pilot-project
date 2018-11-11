@@ -1,0 +1,42 @@
+.sidebar-area {
+    height: 100%;
+    top: 80px;
+    position: relative;
+    float: left;
+    width: 30%;
+    .heading {
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        position: fixed;
+        width: 27%;
+        left: 10px;
+        h1 {
+            font-size: 1.8em;
+            color: #666;
+        }
+    }
+    .container{
+        margin-top: 60px;
+    }
+    .pages {
+        margin: 0px 30px;
+        // position: absolute;
+        bottom: 10px;
+        width: 80%;
+        text-align: center;
+        font-weight: bolder;
+        a {
+            color: #666;
+            text-decoration: none;
+            &:hover {
+                color: #48b5e9;
+            }
+        }
+        .next {
+            float: right;
+        }
+        .prev {
+            float: left;
+        }
+    }
+}
