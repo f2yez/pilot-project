@@ -1,0 +1,16 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mysql": {
+    "client": "mysql2",
+    "connection": "mysql://debian-sys-maint:nohMgaIgYiiZ8XxL@localhost:3306/pilot",
+    "user": "debian-sys-maint",
+    "password": "nohMgaIgYiiZ8XxL",
+    "database": "pilot"
+  }
+}
